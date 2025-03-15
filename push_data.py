@@ -55,9 +55,9 @@ class NetworkDataExtract():
         
 
 if __name__=="__main__":
-    FILE_PATH="D:\COLLEGE\projects\krish naik udemy course\end_to_end_projects\Phishing_Legitimate_full.csv\Phishing_Legitimate_full.csv"
+    FILE_PATH=r"D:\COLLEGE\projects\krish naik udemy course\end_to_end_projects\network_security\network_data\phisingData.csv"
     # FILE_PATH="Phishing_Legitimate_full.csv\Phishing_Legitimate_full.csv"
-    DATABASE="AYUSH1"
+    DATABASE="AYUSH2_main_for_project"
     Collection="NetworkData"
     networkobj=NetworkDataExtract()
     records=networkobj.csv_to_json_convertor(file_path=FILE_PATH)
